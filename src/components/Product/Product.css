@@ -1,0 +1,26 @@
+.product {
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.product__img {
+  object-fit: contain;
+  max-height: 10rem;
+  display: block;
+}
+.product__name {
+  font-size: 1.1rem;
+  margin-bottom: auto;
+}
+.product__price {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.product__star {
+  color: orangered;
+}
+.product__star:not(:last-child) {
+  margin-right: 0.5rem;
+}
